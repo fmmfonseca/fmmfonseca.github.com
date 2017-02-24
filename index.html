@@ -1,91 +1,78 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="author" content="Miguel Fonseca"/>
-        <meta name="description" content="A degenerated artist from Portugal that eventually ended up finding his true vocation as a software engineer, a.k.a. software simian." />
-        <title>Miguel Fonseca - Software Simian</title>
-        <link rel="shortcut icon" href="img/favicon.png"/>
-        <link rel="stylesheet" href="css/default.css"/>
-        <link rel="stylesheet" href="lib/shadowbox-3.0.3/shadowbox.css"/>
-        <script src="lib/shadowbox-3.0.3/shadowbox.js"></script>
-        <script>
-            Shadowbox.init({
-                initialHeight:	1,
-                initialWidth:	1
-            });
-        </script>
-		<script type="text/javascript">
-		  var _gaq = _gaq || [];
-		  _gaq.push(['_setAccount', 'UA-8343467-1']);
-		  _gaq.push(['_trackPageview']);
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Miguel Fonseca"/>
+    <title>Miguel Fonseca</title>
+    <link rel="shortcut icon" href="img/favicon.png">
+    <style>
+      @font-face {
+        font-family: 'fontello';
+        src: url('./font/fontello.eot?486225');
+        src: url('./font/fontello.eot?486225#iefix') format('embedded-opentype'),
+             url('./font/fontello.woff?486225') format('woff'),
+             url('./font/fontello.ttf?486225') format('truetype'),
+             url('./font/fontello.svg?486225#fontello') format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
 
-		  (function() {
-		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		  })();
-		</script>
-    </head>
-    <body>
-        <div id="wrapper" class="clearfix">
-            <h1>A (very) brief interview with Miguel Fonseca</h1>
-            <div id="left" class="lblock">
-                <div class="section">
-                    <h3>Why did I never hear of your name?</h3>
-                    <p>That's not surprising, with a world population of over 6 billion people, not even <a href="img/content/obama.jpg" rel="shadowbox">Super Obama</a> is known worldwide! Besides, I'm yet to <a href="img/content/fame.jpg" rel="shadowbox">make a sex tape</a> to bring me fame.</p>
-                </div>
-                <div class="section">
-                    <h3>So, who are you?</h3>
-                    <p>I'm a degenerated <a href="img/content/duchamp.jpg" rel="shadowbox">artist</a> from Portugal that eventually ended up finding his true vocation as a software engineer, a.k.a. <a href="img/content/simian.gif" rel="shadowbox">software simian</a>. Now I lead a super exciting life monkey-patching enterprise systems during the day and hacking esoteric projects during the night.</p>
-                </div>
-                <div class="section">
-                    <h3>Computers hum... can you fix my <a href="http://encyclopediadramatica.com/Internets">internets</a> connection?</h3>
-                    <p>You better talk with the <a href="http://www.thewebsiteisdown.com/">web dude</a> on that matter. Although trained to work on any computer related field, I'm more into <a href="img/content/matrix.jpg" rel="shadowbox">programming</a> and creating software, rather than <a href="img/content/troubleshooting.jpg" rel="shadowbox">troubleshooting</a> generic PC nuisances.</p>
-                </div>
-                <div class="section">
-                    <h3>Enough of computers yak, do you actually see the daylight?</h3>
-                    <p>I do step out of my lair, mostly to practice mountain-bike <a href="http://en.wikipedia.org/wiki/Freeride">freeride</a> and <a href="http://en.wikipedia.org/wiki/Canoeing">canoeing</a>. I'm also a big fan of motorsports, especially <a href="http://www.motogp.com/">MotoGP</a>. Probably not the <a href="img/content/nerd.png" rel="shadowbox">nerd</a> you pictured.</p>
-                </div>
-                <div class="section">
-                    <h3>There"re still 25 minutes left, but I really don"t have any further questions...</h3>
-                    <p>(silence)</p>
-                </div>
-                <div class="section">
-                    <h3>Well... I'm sold, can I have your contact?</h3>
-                    <p>Sure, just promise you won't stalk and/or spam me! Reach me through contact<span class="hide">empty</span>@miguelfonseca<span class="hide">empty</span>.com</p>
-                </div>
-            </div>
-            <div id="right" class="rblock">
-                <div class="section">
-                    <div><a href="http://twitter.com/fmmfonseca/">Twitter</a></div>
-                    <p>Stream of random stuff</p>
-                </div>
-                <div class="section">
-                    <div><a href="http://github.com/fmmfonseca/">Github</a></div>
-                    <p>Repository of programming projects</p>
-                </div>
-                <div class="section">
-                    <div><a href="http://stackoverflow.com/users/112744/">Stackoverflow</a></div>
-                    <p>Programming Questions &amp; Answers</p>
-                </div>
-                <div class="section">
-                    <div><a href="http://www.youtube.com/user/fmmfonseca">Youtube</a></div>
-                    <p>Channel of video uploads</p>
-                </div>
-                <div class="section">
-                    <div><a href="http://vimeo.com/fmmfonseca">Vimeo</a></div>
-                    <p>Collection of video favorites</p>
-                </div>
-                <div class="section">
-                	<div><a href="http://www.flickr.com/photos/41807046@N06/">Flickr</a></div>
-                	<p>Album of photography</p>
-                </div>
-                <div class="section">
-                    <div><a href="http://fmmfonseca.pinkbike.com/">Pinkbike</a></div>
-                    <p>Mountain-bike photo and video albums</p>
-                </div>
-            </div>
-        </div>
-    </body>
+      body {
+        text-align: center;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      a:hover {
+        color: #CC0000;
+      }
+
+      .icon {
+        font-family: "fontello";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10em;
+        speak: none;
+
+        margin: 0.3em;
+
+        display: inline-block;
+        text-decoration: inherit;
+        text-align: center;
+
+        /* For safety - reset parent styles, that can break glyph codes*/
+        font-variant: normal;
+        text-transform: none;
+
+        /* Font smoothing. That was taken from TWBS */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    </style>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-8343467-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+  <body>
+    <a href="http://github.com/fmmfonseca/">
+      <i class="icon icon-github-circled">&#xf09b;</i>
+    </a>
+    <a href="http://stackoverflow.com/users/112744/">
+      <i class="icon icon-stackoverflow">&#xe800;</i>
+    </a>
+    <a href="" onmouseover="this.href = 'mailto:' + 'contact' + '@' + 'miguelfonseca.com'">
+      <i class="icon icon-mail-alt">&#xf0e0;</i>
+    </a>
+  </body>
 </html>
